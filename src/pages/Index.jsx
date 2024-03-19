@@ -30,7 +30,7 @@ const Index = () => {
   return (
     <Box>
       {/* Header */}
-      <Flex as="header" align="center" justify="space-between" wrap="wrap" padding={6} bg="black" color="white">
+      <Flex as="header" align="center" justify="space-between" wrap="wrap" padding={6} bg="teal.500" color="white">
         <Heading as="h1" size="lg" letterSpacing={"tighter"}>
           Forloop
         </Heading>
@@ -54,7 +54,7 @@ const Index = () => {
         <Text fontSize="xl" mb={8}>
           Real-time insights on pricing, promotions, and visibility across online retailers in the EU.
         </Text>
-        <Button colorScheme="black" size="lg">
+        <Button colorScheme="teal" size="lg">
           Get Started
         </Button>
       </Box>
